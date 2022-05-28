@@ -5,6 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>hello to uniquize </Text>
+      <Text>hello to uniquize 2 </Text>
       <StatusBar style="auto" />
     </View>
   );
