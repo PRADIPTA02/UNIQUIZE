@@ -1,13 +1,15 @@
 import React from "react";
-import { View, Text, SafeAreaView, StyleSheet, Button } from "react-native";
+import {SafeAreaView, StyleSheet} from "react-native";
 import SplashScreen from "./Screens/SplashScreen";
 import StartedScreen from "./Screens/StartedScreen";
+import SignIn from './Screens/SignIn'
 
 const App = () => {
   return (
     <SafeAreaView style={styles.container}>
       {/* <SplashScreen /> */}
-      <StartedScreen />
+      {/* <StartedScreen /> */}
+      <SignIn />
     </SafeAreaView>
   );
 };
